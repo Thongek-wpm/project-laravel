@@ -1,4 +1,4 @@
-
+![Screenshot 2023-07-27 114117](https://github.com/Thongek-wpm/project-laravel/assets/70640558/2ef65c82-c041-4b9d-b520-aa2b735c59de)![Screenshot 2023-07-27 114117](https://github.com/Thongek-wpm/project-laravel/assets/70640558/17dcf3ef-dea5-496c-8a1c-9b2c2dc1405e)
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -7,7 +7,13 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p><br>
-![Screenshot 2023-07-27 114105](https://github.com/Thongek-wpm/project-laravel/assets/70640558/80f3779d-6b11-4763-8919-512132f8a383)
+<img src="https://github.com/Thongek-wpm/project-laravel/assets/70640558/84c5312f-dd74-46ad-aa34-e24507970efc"></a>
+<img src="https://github.com/Thongek-wpm/project-laravel/assets/70640558/ae028bda-ed02-4c1e-b35b-bededb683630"></a>
+<img src="https://github.com/Thongek-wpm/project-laravel/assets/70640558/c60ffeaf-8a65-4b69-95b7-722b128b769f"></a>
+<img src="https://github.com/Thongek-wpm/project-laravel/assets/70640558/caffb106-616c-4cd6-84c6-0ddd7d3da9b5"></a>
+<img src="!https://github.com/Thongek-wpm/project-laravel/assets/70640558/c35d2ae9-8d65-4a48-80f3-493a042a8761"></a>
+<img src="https://github.com/Thongek-wpm/project-laravel/assets/70640558/6540678d-b356-4342-b1d6-c01474738fae"></a>
+
 <br>
 ## About Laravel
 
