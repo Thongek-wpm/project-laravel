@@ -3,13 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 use App\Models\Department;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
 class DepartmentController extends Controller
 {
-    //
     public function index(){
         $departments=Department::paginate(5);
         $trashDepartments = Department::onlyTrashed()->paginate(3);
@@ -28,6 +27,7 @@ class DepartmentController extends Controller
                 'department_name.unique'=>"มีข้อมูลชื่อแผนกนี้ในฐานข้อมูลแล้ว"
             ]
         );
+        //บันทึกข้อมูล
         $data = array();
         $data["department_name"] = $request->department_name;
         $data["user_id"] = Auth::user()->id;
@@ -36,10 +36,13 @@ class DepartmentController extends Controller
         DB::table('departments')->insert($data);
 
         return redirect()->back()->with('success',"บันทึกข้อมูลเรียบร้อย");
-    } public function edit($id){
+    }
+
+    public function edit($id){
         $department = Department::find($id);
         return view('admin.department.edit',compact('department'));
     }
+
     public function update(Request $request , $id){
         //ตรวจสอบข้อมูล
         $request->validate(
@@ -57,5 +60,20 @@ class DepartmentController extends Controller
             'user_id'=>Auth::user()->id
         ]);
         return redirect()->route('department')->with('success',"อัพเดตข้อมูลเรียบร้อย");
+    }
+
+    public function softdelete($id){
+            $delete = Department::find($id)->delete();
+            return redirect()->back()->with('success',"ลบข้อมูลเรียบร้อย");
+    }
+
+    public function restore($id){
+            $restore=Department::withTrashed()->find($id)->restore();
+            return redirect()->back()->with('success',"กู้คืนข้อมูลเรียบร้อย");
+    }
+
+    public function delete($id){
+            $delete=Department::onlyTrashed()->find($id)->forceDelete();
+            return redirect()->back()->with('success',"ลบข้อมูลถาวรเรียบร้อย");
     }
 }

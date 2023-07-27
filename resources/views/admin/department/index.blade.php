@@ -5,7 +5,7 @@
        
         </h2>
         </x-slot>
-    <div class="py-12">
+        <div class="py-12">
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
@@ -17,10 +17,12 @@
                         <table class="table table-bordered">
                         <thead>
                             <tr>
-                            <th scope="col">No.</th>
-                            <th scope="col">Department</th>
-                            <th scope="col">User</th>
+                            <th scope="col">ลำดับ</th>
+                            <th scope="col">ชื่อแผนก</th>
+                            <th scope="col">พนักงาน</th>
+                            <th scope="col">Created_At</th>
                             <th scope="col">Edit</th>
+                            <th scope="col">Delete</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -30,7 +32,17 @@
                                 <td>{{$row->department_name}}</td>
                                 <td>{{$row->user->name}}</td>
                                 <td>
-                                    <a href="{{url('/department/edit/'.$row->id)}}"class="btn btn-primary">Edit</a>
+                                    @if($row->created_at == NULL)
+                                         ไม่ถูกนิยาม
+                                    @else 
+                                        {{Carbon\Carbon::parse($row->created_at)->diffForHumans()}}
+                                    @endif
+                                </td>
+                                <td>
+                                    <a href="{{url('/department/edit/'.$row->id)}}" class="btn btn-primary">แก้ไข</a>
+                                </td>
+                                <td>
+                                    <a href="{{url('/department/softdelete/'.$row->id)}}" class="btn btn-warning">ลบข้อมูล</a>
                                 </td>
                             </tr>
                             @endforeach
