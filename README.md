@@ -1,4 +1,4 @@
-![Screenshot 2023-07-27 114117](https://github.com/Thongek-wpm/project-laravel/assets/70640558/2ef65c82-c041-4b9d-b520-aa2b735c59de)![Screenshot 2023-07-27 114117](https://github.com/Thongek-wpm/project-laravel/assets/70640558/17dcf3ef-dea5-496c-8a1c-9b2c2dc1405e)
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
