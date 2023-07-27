@@ -6,7 +6,9 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p><br>
+</p>
+
+<br>
 <img src="https://github.com/Thongek-wpm/project-laravel/assets/70640558/84c5312f-dd74-46ad-aa34-e24507970efc"></a>
 <img src="https://github.com/Thongek-wpm/project-laravel/assets/70640558/ae028bda-ed02-4c1e-b35b-bededb683630"></a>
 <img src="https://github.com/Thongek-wpm/project-laravel/assets/70640558/c60ffeaf-8a65-4b69-95b7-722b128b769f"></a>
