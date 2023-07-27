@@ -12,6 +12,7 @@
 <img src="https://github.com/Thongek-wpm/project-laravel/assets/70640558/c60ffeaf-8a65-4b69-95b7-722b128b769f"></a>
 <img src="https://github.com/Thongek-wpm/project-laravel/assets/70640558/caffb106-616c-4cd6-84c6-0ddd7d3da9b5"></a>
 <img src="!https://github.com/Thongek-wpm/project-laravel/assets/70640558/c35d2ae9-8d65-4a48-80f3-493a042a8761"></a>
+<img src="!https://github.com/Thongek-wpm/project-laravel/assets/70640558/d86e99db-0ff3-4c74-861f-2c0091549674"></a>
 <img src="https://github.com/Thongek-wpm/project-laravel/assets/70640558/6540678d-b356-4342-b1d6-c01474738fae"></a>
 
 <br>
